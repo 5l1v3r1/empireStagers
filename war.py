@@ -11,7 +11,7 @@ class Stager:
 
             'Author': ['Andrew @ch33kyf3ll0w Bonstrom'],
 
-            'Description': ('Generates a Deployable War file.'),
+            'Description': ('Generates a Deployable War file that will execute the Empire agent.'),
 
             'Comments': [
                 'You will need to deploy the WAR file to activate. Great for interfaces that accept a WAR file such as Apache Tomcat, JBoss, or Oracle Weblogic Servers.'
