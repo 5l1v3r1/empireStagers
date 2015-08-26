@@ -11,7 +11,7 @@ class Stager:
 
             'Author': ['Andrew @ch33kyf3ll0w Bonstrom'],
 
-            'Description': ('Generates a Jar file.'),
+            'Description': ('Generates a Jar file that will execute the Empire agent.'),
 
             'Comments': ['Assuming Java is installed, end users can double click to execute.']
         }
