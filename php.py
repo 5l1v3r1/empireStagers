@@ -1,5 +1,4 @@
 #PHP Stager
-#Needs testing!
 from lib.common import helpers
 
 class Stager:
