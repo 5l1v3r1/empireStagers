@@ -10,7 +10,7 @@ class Stager:
 
             'Author': ['Andrew @ch33kyf3ll0w Bonstrom'],
 
-            'Description': ('Generates an ASPX file that executes the Empire stager..'),
+            'Description': ('Generates an ASPX file that executes the Empire stager.'),
 
             'Comments': [
                 'Grabbed the skeleton of code structure straight from msfvenom.'
